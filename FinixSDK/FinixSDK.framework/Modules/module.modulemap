@@ -1,0 +1,11 @@
+framework module FinixSDK {
+  umbrella header "FinixSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FinixSDK.Swift {
+    header "FinixSDK-Swift.h"
+    requires objc
+}
